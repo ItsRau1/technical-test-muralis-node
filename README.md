@@ -24,10 +24,10 @@ id da categoria) com suas chaves identificadas em inglês, ficando assim:
 
 ```
 {
-	"description": "sua_descricao", // Descrição para a despesa
-	"value": 100, // Valor da despesa
-	"type": 1, // ID do Tipo de pagamento utilizado na despesa (IDs de todos os tipos disponíveis no próximo tópico)
-	"category": 1 // ID da Categoria da despesa (IDs de todas as categorias disponíveis no próximo tópico)
+  "description": "sua_descricao", // Descrição para a despesa
+  "value": 100, // Valor da despesa
+  "type": 1, // ID do Tipo de pagamento utilizado na despesa (IDs de todos os tipos disponíveis no próximo tópico)
+  "category": 1 // ID da Categoria da despesa (IDs de todas as categorias disponíveis no próximo tópico)
 }
 ```
 
@@ -55,8 +55,8 @@ O formato de resposta utilizado e um JSON, seguindo um padrão sendo assim: </br
 
 ```
 {
-    data: [] || {}, // Resultado do request executado
-    success: True || False, // Boolean identificando se houve sucesso na execução
+  data: [] || {}, // Resultado do request executado
+  success: True || False, // Boolean identificando se houve sucesso na execução
 }
 ```
 
