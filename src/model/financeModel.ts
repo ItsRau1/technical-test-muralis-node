@@ -6,3 +6,7 @@ export interface Finance {
     category: number;
     date_buy: string;
 }
+
+export type ResponseNewFinance = {
+    insertId: string,
+}

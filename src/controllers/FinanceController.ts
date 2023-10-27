@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { FinanceRepository } from "../repositories/financeRepository";
+import { ResponseNewFinance } from "../model/financeModel";
 import { z } from "zod";
 
 export class FinanceController {
@@ -42,7 +43,7 @@ export class FinanceController {
         const date_buy = preDate.toISOString().slice(0, 19).replace('T', ' ');
         
         try {
-            let newFinance:{insertId: string} = await FinanceRepository.create({ 
+            let newFinance:ResponseNewFinance = await FinanceRepository.create({ 
                 description, 
                 value, 
                 type, 

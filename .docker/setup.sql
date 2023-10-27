@@ -12,7 +12,7 @@ id INT PRIMARY KEY AUTO_INCREMENT,
 nome VARCHAR(100),
 descricao VARCHAR(150)
 );
-INSERT INTO categorias(nome, descricao) VALUES("Lazer", "Divertimentos para se distrair");
+INSERT INTO categorias(nome, descricao) VALUES ("Alimentação", "Tudo sobre alimentação no geral."), ("Limpeza", "Tudo sobre higiene pessoal e limpeza de ambientes."), ("Pets", "Tudo sobre nossos animais queridos e amados."), ("Lazer", "Tudo sobre divertimentos para se distrair.");
 
 CREATE TABLE IF NOT EXISTS despesas(
 id INT PRIMARY KEY AUTO_INCREMENT,
