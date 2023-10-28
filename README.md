@@ -1,4 +1,4 @@
-# Sobre o Projetos
+# Sobre o Projeto
 
 Projeto é um teste técnico para a empresa Muralis Assessoria e Tecnologia, onde a tecnologia escolhida por mim para o desenvolvimento foi NodeJS com Typescript, aplicação criada para fins de controle de despesas, e desenvolvido nos padrões de projetos MVC.
 
@@ -63,7 +63,7 @@ O formato de resposta utilizado e um JSON, seguindo um padrão, sendo assim: </b
 }
 ```
 
-Com este padrão de resposta, quando Listado com exito as despesas, o "data" será um Array
+Com este padrão de resposta, quando Listado com êxito as despesas, o "data" será um Array
 populado com todas as despesas referentes ao mês presente, sendo assim:</br>
 
 ```
@@ -80,7 +80,7 @@ populado com todas as despesas referentes ao mês presente, sendo assim:</br>
 }
 ```
 
-E quando for Criado com exito
+E quando for Criado com êxito
 uma nova despesa, ele será um objeto com apenas uma chave "idNewFinance" contendo o ID da
 despesa recém criada, sendo assim:</br>
 
@@ -93,7 +93,7 @@ despesa recém criada, sendo assim:</br>
 }
 ```
 
-E quando não houver exito em alguma chamada o "data" será populado
+E quando não houver êxito em alguma chamada o "data" será populado
 com o erro retornado, sendo assim.</br>
 
 ```
